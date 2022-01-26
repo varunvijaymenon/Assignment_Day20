@@ -1,0 +1,46 @@
+body{
+    background-color: yellow;
+}
+.container{
+    text-align: center;
+}
+
+.animal_list {
+    display: inline-flex;
+    flex-direction: row;
+    background: blue;
+    flex-wrap: wrap;
+    padding-left: 1em;
+    padding-right: 1em;
+    column-gap : 1em;
+}
+
+.animal-container {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    padding: 0.5em;
+    text-align: left;
+    border-radius: 0.5em;
+    background-color: yellow;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.animal-image {
+    width: 10em;
+    height: 10em;
+}
+
+.animal-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column;
+}
+
+.delete_animal {
+    margin-top: auto;
+    text-align: center;
+    background-color:#E5E5E5;
+    border-radius: 0.5em;
+}
